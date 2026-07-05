@@ -1,10 +1,8 @@
-function App() {
+import { DashboardPage } from './pages/DashboardPage'
 
-  return (
-    <>
-      <h1>勉強記録</h1>
-    </>
-  )
+// アプリのルートコンポーネント。現状はメインページ（DashboardPage）のみを表示する
+function App() {
+  return <DashboardPage />
 }
 
 export default App
